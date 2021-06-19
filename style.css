@@ -1,0 +1,56 @@
+/* Login */
+
+body {
+   background-color: rgb(226, 238, 247);
+   font-family: 'Lato', sans-serif;
+}
+
+.login {
+   text-align: center;
+   margin: 10% 0;
+}
+
+.perfil {
+   width: 20%;
+   border: 5px solid rgb(10, 75, 95);
+   border-radius: 360px;
+}
+
+.login input {
+   margin: 20px auto;
+   display: block;
+   padding: 10px;
+   border-radius: 5px;
+   box-shadow: 1.5px 1.5px rgba(0, 0, 0, 0.24);
+}
+
+/* Index */
+.cabecalho {
+   padding: 5% 5% ;
+   background-color: white;
+   border: 1px solid black;
+   width: auto;
+}
+
+.logo {
+   width: 20%;
+   border: 5px solid rgb(10, 75, 95);
+   border-radius: 360px;
+   display: inline-block;
+}
+
+.cabecalho h1 {
+   font-family: 'Cinzel', serif;
+   font-weight: bold;
+   font-size: 2em;
+   display: inline-block; 
+}
+
+.comentario {
+   text-align: center;
+   margin: 5% 0;
+}
+
+.botoes {
+   display: block;
+}
