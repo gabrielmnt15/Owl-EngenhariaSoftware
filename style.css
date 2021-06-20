@@ -1,7 +1,7 @@
 /* Login */
 
 body {
-   background-color: rgb(226, 238, 247);
+   background-color: #b0d5f5;
    font-family: 'Lato', sans-serif;
 }
 
@@ -12,7 +12,7 @@ body {
 
 .perfil {
    width: 20%;
-   border: 5px solid rgb(10, 75, 95);
+   border: 3.5px solid rgb(10, 75, 95);
    border-radius: 360px;
 }
 
@@ -21,36 +21,97 @@ body {
    display: block;
    padding: 10px;
    border-radius: 5px;
-   box-shadow: 1.5px 1.5px rgba(0, 0, 0, 0.24);
+   border: 2px solid rgb(10, 75, 95);
+   box-shadow: 1px 1px rgba(0, 0, 0, 0.349);
+}
+
+.login .iniciar {
+   background-color: #1a71e2;
+   color: white;
+   padding: 5px;
+   border: 1px solid black;
+   border-radius: 5px;
+   box-shadow: 1px 1px rgba(0, 0, 0, 0.349);
+   text-transform: uppercase;
+   text-decoration: none;
 }
 
 /* Index */
-.cabecalho {
-   padding: 5% 5% ;
+
+header {
    background-color: white;
-   border: 1px solid black;
-   width: auto;
+   padding: 20px 0;
+   border: 1.8px solid black;
+   border-radius: 3px;
 }
 
-.logo {
-   width: 20%;
-   border: 5px solid rgb(10, 75, 95);
+.caixa {
+   position: relative;
+   width: 940px;
+   margin: 0% 10%;
+}
+
+.caixa img {
+   width: 300px;
+   border: 3px solid rgb(10, 75, 95);
+   border-radius: 360px;
+}
+
+.caixa h1 {
+   position: absolute;
+   top: 125px;
+   left: 400px ;
+   font-size: 4em;
+   font-family: 'Philosopher', sans-serif;
+   font-weight: bold;
+   font-style: italic;
+   text-transform: uppercase;
+   color: rgb(10, 75, 95);
+}
+
+.user img {
+   border: 1px solid rgb(10, 75, 95);
    border-radius: 360px;
    display: inline-block;
+   position: relative;
+   left: -90px;
 }
 
-.cabecalho h1 {
-   font-family: 'Cinzel', serif;
-   font-weight: bold;
-   font-size: 2em;
-   display: inline-block; 
+.user p {
+   display: inline-block;
+   position: relative;
+   bottom: 10px;
+   left: -90px;
 }
 
-.comentario {
+.tweet {
    text-align: center;
-   margin: 5% 0;
+   margin: 50px auto;
 }
 
-.botoes {
+.tweet label {
    display: block;
 }
+
+.tweet input {
+   display: block;
+   margin: auto;
+}
+
+.postados {
+   background-color: white;
+   margin: 0 30% 100%;
+   border: 1px solid black;
+}
+
+.postados div {
+   margin: 10px;
+}
+
+.postados div p {
+   border: 1.5px solid black;
+   border-radius: 6px;
+   padding: 10px;
+   margin: 0 0 40px 0;;
+}
+

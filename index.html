@@ -8,19 +8,27 @@
    <link rel="stylesheet" href="reset.css">
    <link rel="stylesheet" href="style.css">
    <link rel="preconnect" href="https://fonts.gstatic.com">
-   <link rel="preconnect" href="https://fonts.gstatic.com">
-   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&family=Philosopher:ital,wght@1,700&display=swap" rel="stylesheet">
 </head>
 <body>
-   <header class="cabecalho">
-      <img class="logo" src="imagens/owl-logo.jpg" alt="logo">
-      <h1>OWL</h1>
+   <header>
+      <div class="caixa">
+         <img src="imagens/owl-logo.jpg" alt="logo">
+         <h1>Owl</h1>
+      </div>
    </header>
-   <section class="comentario">
-      <textarea name="" id="" cols="40" rows="7" maxlength="266"></textarea>
-      <form class="botoes">
-         <input type="button" value="Tweetar">
-      </form>
+   <main class="tweet">
+      <div class="user">
+         <img src="imagens/tiny-owl-logo.jpg" alt="user-foto">
+         <p id="username_index">Usuário</p>
+      </div>
+      <textarea name="mensagem" id="mensagem" cols="40" rows="8" maxlength="266"></textarea>
+      <input type="submit" value="Enviar" onclick="enviar()">
+   </main>
+   <section class="postados"> 
+      <div id="textos_postados">
+      </div>
    </section>
+   <script src="script.js"></script>
 </body>
 </html>
