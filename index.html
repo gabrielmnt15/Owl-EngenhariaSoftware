@@ -9,6 +9,7 @@
    <link rel="stylesheet" href="style.css">
    <link rel="preconnect" href="https://fonts.gstatic.com">
    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&family=Philosopher:ital,wght@1,700&display=swap" rel="stylesheet">
+   <link rel="shortcut icon" href="imagens/owl-icon.ico" type="image/x-icon">
 </head>
 <body>
    <header>
@@ -19,15 +20,13 @@
    </header>
    <main class="tweet">
       <div class="user">
-         <img src="imagens/tiny-owl-logo.jpg" alt="user-foto">
+         <img id="user_foto" src="imagens/tiny-owl-logo.jpg" alt="user-foto">
          <p id="username_index">Usuário</p>
       </div>
       <textarea name="mensagem" id="mensagem" cols="40" rows="8" maxlength="266"></textarea>
       <input type="submit" value="Enviar" onclick="enviar()">
    </main>
-   <section class="postados"> 
-      <div id="textos_postados">
-      </div>
+   <section id="postados"> 
    </section>
    <script src="script.js"></script>
 </body>

@@ -95,23 +95,71 @@ header {
 
 .tweet input {
    display: block;
-   margin: auto;
+   padding: 5px 10px;
+   margin: 5px auto;
+   border: 1px solid black;
+   border-radius: 5px;
+   background-color: #1a71e2;
+   color: white;
+   box-shadow: 1px 1px rgba(0, 0, 0, 0.404);
 }
 
-.postados {
+.tweet input:hover {
+   padding: 6px 11px;
+}
+
+#postados {
    background-color: white;
    margin: 0 30% 100%;
    border: 1px solid black;
 }
 
-.postados div {
-   margin: 10px;
+#postados .postados_user {
+   margin: 0;
 }
 
-.postados div p {
+#postados .postados_user img {
+   border: 1px solid rgb(10, 75, 95);
+   border-radius: 360px;
+   position: relative;
+   top: 17px;
+}
+
+#postados .postados_user #user_nick {
+   border: 0;
+   display: inline-block;
+   position: relative;
+   top: 5px;
+   left: -8px;
+}
+
+#postados #caixa {
+   margin: 0px 10px 40px;
+}
+
+#postados #caixa p {
    border: 1.5px solid black;
    border-radius: 6px;
    padding: 10px;
-   margin: 0 0 40px 0;;
+   margin: 0 0 10px 0;
 }
 
+#postados #caixa input {
+   margin-right: 6px;
+   border: 1px solid black;
+   border-radius: 5px;
+}
+
+#postados #caixa input:hover {
+   padding: 2px 6px;
+}
+
+#postados #caixa input:active {
+   border-color: goldenrod;
+}
+
+#comentario {
+   padding: 0 35px;
+   position: relative;
+   top: 15px;
+}
